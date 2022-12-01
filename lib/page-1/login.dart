@@ -11,6 +11,11 @@ class Scene extends StatelessWidget {
   TextEditingController _passFieldController = TextEditingController();
   String valueText = '';
 
+  functionLogin() {
+    print(_textFieldController.text);
+    print(_passFieldController.text);
+  }
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 375;
@@ -76,23 +81,27 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: TextField(
-                        keyboardType: TextInputType.text,
-                        controller: _textFieldController,
-                        onChanged: (value) {},
+                    // ignore: sort_child_properties_last
+
+                    child: TextField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
                       ),
+                      keyboardType: TextInputType.text,
+                      controller: _textFieldController,
+                      onChanged: (value) {},
                     ),
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 2 * fem, 14 * fem),
                     width: 326 * fem,
                     height: 50 * fem,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10 * fem),
-                      border: Border.all(color: Color(0xff5089c6)),
-                      color: Color(0xffffffff),
-                    ),
+                    // decoration: BoxDecoration(
+                    //   borderRadius: BorderRadius.circular(10 * fem),
+                    //   border: Border.all(color: Color(0xff5089c6)),
+                    //   color: Color(0xffffffff),
+                    // ),
                   ),
                   Container(
                     // passwordKEj (1:25)
@@ -110,27 +119,30 @@ class Scene extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: TextField(
-                        keyboardType: TextInputType.text,
-                        obscureText: true,
-                        controller: _passFieldController,
-                        onChanged: (value) {},
+                    child: TextField(
+                      obscureText: true,
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
                       ),
+                      keyboardType: TextInputType.text,
+                      controller: _passFieldController,
+                      onChanged: (value) {},
                     ),
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 2 * fem, 14 * fem),
                     width: 326 * fem,
                     height: 50 * fem,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10 * fem),
-                      border: Border.all(color: Color(0xff5089c6)),
-                      color: Color(0xffffffff),
-                    ),
+                    // decoration: BoxDecoration(
+                    //   borderRadius: BorderRadius.circular(10 * fem),
+                    //   border: Border.all(color: Color(0xff5089c6)),
+                    //   color: Color(0xffffffff),
+                    // ),
                   ),
                   GestureDetector(
                     onTap: () {
+                      functionLogin();
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => Scene2()),
