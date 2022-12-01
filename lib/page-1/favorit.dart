@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myapp/page-1/akun.dart';
 import 'package:myapp/page-1/home.dart';
 import 'package:myapp/utils.dart';
 
@@ -25,7 +26,7 @@ class SceneFavorit extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: LinearGradient(
                 colors: [
-                  Color.fromARGB(255, 252, 252, 252),
+                  Color.fromARGB(255, 150, 144, 144),
                   Color.fromARGB(255, 255, 255, 255)
                 ],
                 begin: FractionalOffset.topLeft,
@@ -576,36 +577,44 @@ class SceneFavorit extends StatelessWidget {
                     SizedBox(
                       width: 74 * fem,
                     ),
-                    Container(
-                      // autogroup6hyoVcP (d5fgxjSz4ANmkqKLJ6HYo)
-                      height: double.infinity,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Container(
-                            // group2dTh (1:124)
-                            margin: EdgeInsets.fromLTRB(
-                                0 * fem, 0 * fem, 0 * fem, 5.89 * fem),
-                            width: 23 * fem,
-                            height: 28.11 * fem,
-                            child: Image.asset(
-                              'assets/page-1/images/group-2-YsV.png',
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SceneAkun()));
+                      },
+                      child: Container(
+                        // autogroup6hyoVcP (d5fgxjSz4ANmkqKLJ6HYo)
+                        height: double.infinity,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                              // group2dTh (1:124)
+                              margin: EdgeInsets.fromLTRB(
+                                  0 * fem, 0 * fem, 0 * fem, 5.89 * fem),
                               width: 23 * fem,
                               height: 28.11 * fem,
+                              child: Image.asset(
+                                'assets/page-1/images/group-2-YsV.png',
+                                width: 23 * fem,
+                                height: 28.11 * fem,
+                              ),
                             ),
-                          ),
-                          Text(
-                            // akun7tf (1:122)
-                            'Akun',
-                            style: SafeGoogleFont(
-                              'Roboto',
-                              fontSize: 13 * ffem,
-                              fontWeight: FontWeight.w700,
-                              height: 1.1725 * ffem / fem,
-                              color: Color(0xff5089c6),
+                            Text(
+                              // akun7tf (1:122)
+                              'Akun',
+                              style: SafeGoogleFont(
+                                'Roboto',
+                                fontSize: 13 * ffem,
+                                fontWeight: FontWeight.w700,
+                                height: 1.1725 * ffem / fem,
+                                color: Color(0xff5089c6),
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ],
