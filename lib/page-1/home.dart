@@ -267,6 +267,7 @@ class Scene2 extends StatelessWidget {
                           ),
                           Container(
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
                               children: content,
                             ),
                           ),

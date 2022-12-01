@@ -44,7 +44,7 @@ class SceneFavorit extends StatelessWidget {
             borderRadius: BorderRadius.circular(40 * fem),
           ),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Flexible(
                 flex: 1,
@@ -67,8 +67,6 @@ class SceneFavorit extends StatelessWidget {
                     ),
                     Container(
                       // favoritrCB (1:100)
-                      margin: EdgeInsets.fromLTRB(
-                          24 * fem, 0 * fem, 0 * fem, 0 * fem),
                       child: Text(
                         'Favorit',
                         style: SafeGoogleFont(
@@ -85,381 +83,407 @@ class SceneFavorit extends StatelessWidget {
               ),
               Flexible(
                 flex: 4,
-                child: Container(
-                  // autogroupfhbrX3R (d5g2NLn6yWS1x5qS5FHBR)
-                  padding: EdgeInsets.fromLTRB(
-                      24 * fem, 27 * fem, 25 * fem, 99 * fem),
-                  width: double.infinity,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Container(
-                        // autogrouptxvxc4s (d5dcgrXDRne1brCGbTxvX)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 0 * fem, 18 * fem),
-                        width: double.infinity,
-                        height: 142 * fem,
-                        child: Stack(
-                          children: [
-                            Positioned(
-                              // image1hc7 (1:101)
-                              left: 0 * fem,
-                              top: 0 * fem,
-                              child: Align(
-                                child: SizedBox(
+                child: ListView(
+                  children: [
+                    Container(
+                      // autogroupfhbrX3R (d5g2NLn6yWS1x5qS5FHBR)
+
+                      width: double.infinity,
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: 20 * fem,
+                          ),
+                          Container(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  // autogrouptxvxc4s (d5dcgrXDRne1brCGbTxvX)
+                                  margin: EdgeInsets.fromLTRB(
+                                      0 * fem, 0 * fem, 0 * fem, 18 * fem),
+                                  width: double.infinity,
+                                  height: 142 * fem,
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        // image1hc7 (1:101)
+                                        left: 0 * fem,
+                                        top: 0 * fem,
+                                        child: Align(
+                                          child: SizedBox(
+                                            width: 325 * fem,
+                                            height: 140 * fem,
+                                            child: ClipRRect(
+                                              borderRadius:
+                                                  BorderRadius.circular(
+                                                      40 * fem),
+                                              child: Image.asset(
+                                                'assets/page-1/images/image-1.png',
+                                                fit: BoxFit.cover,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        // rectangle4KdV (1:104)
+                                        left: 1 * fem,
+                                        top: 2 * fem,
+                                        child: ImageFiltered(
+                                          imageFilter: ImageFilter.blur(
+                                            sigmaX: 2 * fem,
+                                            sigmaY: 2 * fem,
+                                          ),
+                                          child: Align(
+                                            child: SizedBox(
+                                              width: 325 * fem,
+                                              height: 140 * fem,
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          40 * fem),
+                                                  color: Color(0x4c000000),
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        // pantaibali3xo (1:107)
+                                        left: 29 * fem,
+                                        top: 39 * fem,
+                                        child: Align(
+                                          child: SizedBox(
+                                            width: 87 * fem,
+                                            height: 22 * fem,
+                                            child: Text(
+                                              'Pantai Bali',
+                                              style: SafeGoogleFont(
+                                                'Roboto',
+                                                fontSize: 18 * ffem,
+                                                fontWeight: FontWeight.w700,
+                                                height: 1.1725 * ffem / fem,
+                                                color: Color(0xffffffff),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        // vector5eb (1:110)
+                                        left: 29 * fem,
+                                        top: 103 * fem,
+                                        child: Align(
+                                          child: SizedBox(
+                                            width: 17 * fem,
+                                            height: 16.29 * fem,
+                                            child: Image.asset(
+                                              'assets/page-1/images/vector-egK.png',
+                                              width: 17 * fem,
+                                              height: 16.29 * fem,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        // kEw (1:113)
+                                        left: 52 * fem,
+                                        top: 103 * fem,
+                                        child: Align(
+                                          child: SizedBox(
+                                            width: 20 * fem,
+                                            height: 17 * fem,
+                                            child: Text(
+                                              '4.8',
+                                              style: SafeGoogleFont(
+                                                'Roboto',
+                                                fontSize: 14 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height: 1.1725 * ffem / fem,
+                                                color: Color(0xffffffff),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        // pantaiyangmemilikijulukansebag (1:116)
+                                        left: 29 * fem,
+                                        top: 66 * fem,
+                                        child: Align(
+                                          child: SizedBox(
+                                            width: 233 * fem,
+                                            height: 29 * fem,
+                                            child: Text(
+                                              'Pantai yang memiliki julukan sebagai pantai terindah di kepulauan nusantara',
+                                              style: SafeGoogleFont(
+                                                'Roboto',
+                                                fontSize: 12 * ffem,
+                                                fontWeight: FontWeight.w400,
+                                                height: 1.1725 * ffem / fem,
+                                                color: Color(0xffe5e5e5),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        // vectorSGB (1:128)
+                                        left: 266 * fem,
+                                        top: 13 * fem,
+                                        child: Align(
+                                          child: SizedBox(
+                                            width: 31 * fem,
+                                            height: 26 * fem,
+                                            child: Image.asset(
+                                              'assets/page-1/images/vector-YVZ.png',
+                                              width: 31 * fem,
+                                              height: 26 * fem,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  // autogroupja1177R (d5dxLxSBiyk32wC91JA11)
+                                  margin: EdgeInsets.fromLTRB(
+                                      0 * fem, 0 * fem, 1 * fem, 20 * fem),
+                                  padding: EdgeInsets.fromLTRB(
+                                      29 * fem, 13 * fem, 28 * fem, 20 * fem),
                                   width: 325 * fem,
-                                  height: 140 * fem,
-                                  child: ClipRRect(
+                                  decoration: BoxDecoration(
                                     borderRadius:
                                         BorderRadius.circular(40 * fem),
-                                    child: Image.asset(
-                                      'assets/page-1/images/image-1.png',
+                                    color: Color(0x4c000000),
+                                    image: DecorationImage(
                                       fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Positioned(
-                              // rectangle4KdV (1:104)
-                              left: 1 * fem,
-                              top: 2 * fem,
-                              child: ImageFiltered(
-                                imageFilter: ImageFilter.blur(
-                                  sigmaX: 2 * fem,
-                                  sigmaY: 2 * fem,
-                                ),
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 325 * fem,
-                                    height: 140 * fem,
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        borderRadius:
-                                            BorderRadius.circular(40 * fem),
-                                        color: Color(0x4c000000),
+                                      image: AssetImage(
+                                        'assets/page-1/images/image-2-bg-1GP.png',
                                       ),
                                     ),
                                   ),
-                                ),
-                              ),
-                            ),
-                            Positioned(
-                              // pantaibali3xo (1:107)
-                              left: 29 * fem,
-                              top: 39 * fem,
-                              child: Align(
-                                child: SizedBox(
-                                  width: 87 * fem,
-                                  height: 22 * fem,
-                                  child: Text(
-                                    'Pantai Bali',
-                                    style: SafeGoogleFont(
-                                      'Roboto',
-                                      fontSize: 18 * ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.1725 * ffem / fem,
-                                      color: Color(0xffffffff),
+                                  child: ImageFiltered(
+                                    imageFilter: ImageFilter.blur(
+                                      sigmaX: 2 * fem,
+                                      sigmaY: 2 * fem,
+                                    ),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Container(
+                                          // vectorwEs (1:129)
+                                          margin: EdgeInsets.fromLTRB(237 * fem,
+                                              0 * fem, 0 * fem, 0 * fem),
+                                          width: 31 * fem,
+                                          height: 26 * fem,
+                                          child: Image.asset(
+                                            'assets/page-1/images/vector-wC7.png',
+                                            width: 31 * fem,
+                                            height: 26 * fem,
+                                          ),
+                                        ),
+                                        Container(
+                                          // pantaibaliRA3 (1:108)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 181 * fem, 5 * fem),
+                                          child: Text(
+                                            'Pantai Bali',
+                                            style: SafeGoogleFont(
+                                              'Roboto',
+                                              fontSize: 18 * ffem,
+                                              fontWeight: FontWeight.w700,
+                                              height: 1.1725 * ffem / fem,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          // pantaiyangmemilikijulukansebag (1:117)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 35 * fem, 8 * fem),
+                                          constraints: BoxConstraints(
+                                            maxWidth: 233 * fem,
+                                          ),
+                                          child: Text(
+                                            'Pantai yang memiliki julukan sebagai pantai terindah di kepulauan nusantara',
+                                            style: SafeGoogleFont(
+                                              'Roboto',
+                                              fontSize: 12 * ffem,
+                                              fontWeight: FontWeight.w400,
+                                              height: 1.1725 * ffem / fem,
+                                              color: Color(0xffe5e5e5),
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          // autogrouphucojK9 (d5eMfcueDEtAdcYdMhuco)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 225 * fem, 0 * fem),
+                                          width: double.infinity,
+                                          child: Row(
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.center,
+                                            children: [
+                                              Container(
+                                                // vectorq7H (1:111)
+                                                margin: EdgeInsets.fromLTRB(
+                                                    0 * fem,
+                                                    0 * fem,
+                                                    6 * fem,
+                                                    0.71 * fem),
+                                                width: 17 * fem,
+                                                height: 16.29 * fem,
+                                                child: Image.asset(
+                                                  'assets/page-1/images/vector-7Ru.png',
+                                                  width: 17 * fem,
+                                                  height: 16.29 * fem,
+                                                ),
+                                              ),
+                                              Text(
+                                                // 7ab (1:114)
+                                                '4.8',
+                                                style: SafeGoogleFont(
+                                                  'Roboto',
+                                                  fontSize: 14 * ffem,
+                                                  fontWeight: FontWeight.w400,
+                                                  height: 1.1725 * ffem / fem,
+                                                  color: Color(0xffffffff),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
-                              ),
-                            ),
-                            Positioned(
-                              // vector5eb (1:110)
-                              left: 29 * fem,
-                              top: 103 * fem,
-                              child: Align(
-                                child: SizedBox(
-                                  width: 17 * fem,
-                                  height: 16.29 * fem,
-                                  child: Image.asset(
-                                    'assets/page-1/images/vector-egK.png',
-                                    width: 17 * fem,
-                                    height: 16.29 * fem,
+                                Container(
+                                  // autogrouppt23RrB (d5emzFiWCtDRBdpCEpT23)
+                                  margin: EdgeInsets.fromLTRB(
+                                      0 * fem, 0 * fem, 1 * fem, 0 * fem),
+                                  padding: EdgeInsets.fromLTRB(
+                                      29 * fem, 13 * fem, 28 * fem, 20 * fem),
+                                  width: 325 * fem,
+                                  decoration: BoxDecoration(
+                                    borderRadius:
+                                        BorderRadius.circular(40 * fem),
+                                    color: Color(0x4c000000),
+                                    image: DecorationImage(
+                                      fit: BoxFit.cover,
+                                      image: AssetImage(
+                                        'assets/page-1/images/image-3-bg-o7q.png',
+                                      ),
+                                    ),
                                   ),
-                                ),
-                              ),
-                            ),
-                            Positioned(
-                              // kEw (1:113)
-                              left: 52 * fem,
-                              top: 103 * fem,
-                              child: Align(
-                                child: SizedBox(
-                                  width: 20 * fem,
-                                  height: 17 * fem,
-                                  child: Text(
-                                    '4.8',
-                                    style: SafeGoogleFont(
-                                      'Roboto',
-                                      fontSize: 14 * ffem,
-                                      fontWeight: FontWeight.w400,
-                                      height: 1.1725 * ffem / fem,
-                                      color: Color(0xffffffff),
+                                  child: ImageFiltered(
+                                    imageFilter: ImageFilter.blur(
+                                      sigmaX: 2 * fem,
+                                      sigmaY: 2 * fem,
+                                    ),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Container(
+                                          // vectorL5y (1:130)
+                                          margin: EdgeInsets.fromLTRB(237 * fem,
+                                              0 * fem, 0 * fem, 0 * fem),
+                                          width: 31 * fem,
+                                          height: 26 * fem,
+                                          child: Image.asset(
+                                            'assets/page-1/images/vector-BPy.png',
+                                            width: 31 * fem,
+                                            height: 26 * fem,
+                                          ),
+                                        ),
+                                        Container(
+                                          // pantaibali8Xd (1:109)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 181 * fem, 5 * fem),
+                                          child: Text(
+                                            'Pantai Bali',
+                                            style: SafeGoogleFont(
+                                              'Roboto',
+                                              fontSize: 18 * ffem,
+                                              fontWeight: FontWeight.w700,
+                                              height: 1.1725 * ffem / fem,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          // pantaiyangmemilikijulukansebag (1:118)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 35 * fem, 8 * fem),
+                                          constraints: BoxConstraints(
+                                            maxWidth: 233 * fem,
+                                          ),
+                                          child: Text(
+                                            'Pantai yang memiliki julukan sebagai pantai terindah di kepulauan nusantara',
+                                            style: SafeGoogleFont(
+                                              'Roboto',
+                                              fontSize: 12 * ffem,
+                                              fontWeight: FontWeight.w400,
+                                              height: 1.1725 * ffem / fem,
+                                              color: Color(0xffe5e5e5),
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          // autogroupelbdqaT (d5exQ82yZnYano6bFeLbd)
+                                          margin: EdgeInsets.fromLTRB(0 * fem,
+                                              0 * fem, 225 * fem, 0 * fem),
+                                          width: double.infinity,
+                                          child: Row(
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.center,
+                                            children: [
+                                              Container(
+                                                // vector9LF (1:112)
+                                                margin: EdgeInsets.fromLTRB(
+                                                    0 * fem,
+                                                    0 * fem,
+                                                    6 * fem,
+                                                    0.71 * fem),
+                                                width: 17 * fem,
+                                                height: 16.29 * fem,
+                                                child: Image.asset(
+                                                  'assets/page-1/images/vector.png',
+                                                  width: 17 * fem,
+                                                  height: 16.29 * fem,
+                                                ),
+                                              ),
+                                              Text(
+                                                // dWK (1:115)
+                                                '4.8',
+                                                style: SafeGoogleFont(
+                                                  'Roboto',
+                                                  fontSize: 14 * ffem,
+                                                  fontWeight: FontWeight.w400,
+                                                  height: 1.1725 * ffem / fem,
+                                                  color: Color(0xffffffff),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
-                              ),
+                              ],
                             ),
-                            Positioned(
-                              // pantaiyangmemilikijulukansebag (1:116)
-                              left: 29 * fem,
-                              top: 66 * fem,
-                              child: Align(
-                                child: SizedBox(
-                                  width: 233 * fem,
-                                  height: 29 * fem,
-                                  child: Text(
-                                    'Pantai yang memiliki julukan sebagai pantai terindah di kepulauan nusantara',
-                                    style: SafeGoogleFont(
-                                      'Roboto',
-                                      fontSize: 12 * ffem,
-                                      fontWeight: FontWeight.w400,
-                                      height: 1.1725 * ffem / fem,
-                                      color: Color(0xffe5e5e5),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Positioned(
-                              // vectorSGB (1:128)
-                              left: 266 * fem,
-                              top: 13 * fem,
-                              child: Align(
-                                child: SizedBox(
-                                  width: 31 * fem,
-                                  height: 26 * fem,
-                                  child: Image.asset(
-                                    'assets/page-1/images/vector-YVZ.png',
-                                    width: 31 * fem,
-                                    height: 26 * fem,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
-                      Container(
-                        // autogroupja1177R (d5dxLxSBiyk32wC91JA11)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 1 * fem, 20 * fem),
-                        padding: EdgeInsets.fromLTRB(
-                            29 * fem, 13 * fem, 28 * fem, 20 * fem),
-                        width: 325 * fem,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(40 * fem),
-                          color: Color(0x4c000000),
-                          image: DecorationImage(
-                            fit: BoxFit.cover,
-                            image: AssetImage(
-                              'assets/page-1/images/image-2-bg-1GP.png',
-                            ),
-                          ),
-                        ),
-                        child: ImageFiltered(
-                          imageFilter: ImageFilter.blur(
-                            sigmaX: 2 * fem,
-                            sigmaY: 2 * fem,
-                          ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Container(
-                                // vectorwEs (1:129)
-                                margin: EdgeInsets.fromLTRB(
-                                    237 * fem, 0 * fem, 0 * fem, 0 * fem),
-                                width: 31 * fem,
-                                height: 26 * fem,
-                                child: Image.asset(
-                                  'assets/page-1/images/vector-wC7.png',
-                                  width: 31 * fem,
-                                  height: 26 * fem,
-                                ),
-                              ),
-                              Container(
-                                // pantaibaliRA3 (1:108)
-                                margin: EdgeInsets.fromLTRB(
-                                    0 * fem, 0 * fem, 181 * fem, 5 * fem),
-                                child: Text(
-                                  'Pantai Bali',
-                                  style: SafeGoogleFont(
-                                    'Roboto',
-                                    fontSize: 18 * ffem,
-                                    fontWeight: FontWeight.w700,
-                                    height: 1.1725 * ffem / fem,
-                                    color: Color(0xffffffff),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                // pantaiyangmemilikijulukansebag (1:117)
-                                margin: EdgeInsets.fromLTRB(
-                                    0 * fem, 0 * fem, 35 * fem, 8 * fem),
-                                constraints: BoxConstraints(
-                                  maxWidth: 233 * fem,
-                                ),
-                                child: Text(
-                                  'Pantai yang memiliki julukan sebagai pantai terindah di kepulauan nusantara',
-                                  style: SafeGoogleFont(
-                                    'Roboto',
-                                    fontSize: 12 * ffem,
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.1725 * ffem / fem,
-                                    color: Color(0xffe5e5e5),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                // autogrouphucojK9 (d5eMfcueDEtAdcYdMhuco)
-                                margin: EdgeInsets.fromLTRB(
-                                    0 * fem, 0 * fem, 225 * fem, 0 * fem),
-                                width: double.infinity,
-                                child: Row(
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-                                    Container(
-                                      // vectorq7H (1:111)
-                                      margin: EdgeInsets.fromLTRB(0 * fem,
-                                          0 * fem, 6 * fem, 0.71 * fem),
-                                      width: 17 * fem,
-                                      height: 16.29 * fem,
-                                      child: Image.asset(
-                                        'assets/page-1/images/vector-7Ru.png',
-                                        width: 17 * fem,
-                                        height: 16.29 * fem,
-                                      ),
-                                    ),
-                                    Text(
-                                      // 7ab (1:114)
-                                      '4.8',
-                                      style: SafeGoogleFont(
-                                        'Roboto',
-                                        fontSize: 14 * ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.1725 * ffem / fem,
-                                        color: Color(0xffffffff),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                      Container(
-                        // autogrouppt23RrB (d5emzFiWCtDRBdpCEpT23)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 1 * fem, 0 * fem),
-                        padding: EdgeInsets.fromLTRB(
-                            29 * fem, 13 * fem, 28 * fem, 20 * fem),
-                        width: 325 * fem,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(40 * fem),
-                          color: Color(0x4c000000),
-                          image: DecorationImage(
-                            fit: BoxFit.cover,
-                            image: AssetImage(
-                              'assets/page-1/images/image-3-bg-o7q.png',
-                            ),
-                          ),
-                        ),
-                        child: ImageFiltered(
-                          imageFilter: ImageFilter.blur(
-                            sigmaX: 2 * fem,
-                            sigmaY: 2 * fem,
-                          ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Container(
-                                // vectorL5y (1:130)
-                                margin: EdgeInsets.fromLTRB(
-                                    237 * fem, 0 * fem, 0 * fem, 0 * fem),
-                                width: 31 * fem,
-                                height: 26 * fem,
-                                child: Image.asset(
-                                  'assets/page-1/images/vector-BPy.png',
-                                  width: 31 * fem,
-                                  height: 26 * fem,
-                                ),
-                              ),
-                              Container(
-                                // pantaibali8Xd (1:109)
-                                margin: EdgeInsets.fromLTRB(
-                                    0 * fem, 0 * fem, 181 * fem, 5 * fem),
-                                child: Text(
-                                  'Pantai Bali',
-                                  style: SafeGoogleFont(
-                                    'Roboto',
-                                    fontSize: 18 * ffem,
-                                    fontWeight: FontWeight.w700,
-                                    height: 1.1725 * ffem / fem,
-                                    color: Color(0xffffffff),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                // pantaiyangmemilikijulukansebag (1:118)
-                                margin: EdgeInsets.fromLTRB(
-                                    0 * fem, 0 * fem, 35 * fem, 8 * fem),
-                                constraints: BoxConstraints(
-                                  maxWidth: 233 * fem,
-                                ),
-                                child: Text(
-                                  'Pantai yang memiliki julukan sebagai pantai terindah di kepulauan nusantara',
-                                  style: SafeGoogleFont(
-                                    'Roboto',
-                                    fontSize: 12 * ffem,
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.1725 * ffem / fem,
-                                    color: Color(0xffe5e5e5),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                // autogroupelbdqaT (d5exQ82yZnYano6bFeLbd)
-                                margin: EdgeInsets.fromLTRB(
-                                    0 * fem, 0 * fem, 225 * fem, 0 * fem),
-                                width: double.infinity,
-                                child: Row(
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-                                    Container(
-                                      // vector9LF (1:112)
-                                      margin: EdgeInsets.fromLTRB(0 * fem,
-                                          0 * fem, 6 * fem, 0.71 * fem),
-                                      width: 17 * fem,
-                                      height: 16.29 * fem,
-                                      child: Image.asset(
-                                        'assets/page-1/images/vector.png',
-                                        width: 17 * fem,
-                                        height: 16.29 * fem,
-                                      ),
-                                    ),
-                                    Text(
-                                      // dWK (1:115)
-                                      '4.8',
-                                      style: SafeGoogleFont(
-                                        'Roboto',
-                                        fontSize: 14 * ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.1725 * ffem / fem,
-                                        color: Color(0xffffffff),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
               Container(
