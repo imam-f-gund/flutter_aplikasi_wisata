@@ -53,29 +53,7 @@ class Scene2 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  // Positioned(
-                  //   // rectangle4KdV (1:104)
-                  //   left: 1 * fem,
-                  //   top: 2 * fem,
-                  //   child: ImageFiltered(
-                  //     imageFilter: ImageFilter.blur(
-                  //       sigmaX: 2 * fem,
-                  //       sigmaY: 2 * fem,
-                  //     ),
-                  //     child: Align(
-                  //       child: SizedBox(
-                  //         width: 325 * fem,
-                  //         height: 140 * fem,
-                  //         child: Container(
-                  //           decoration: BoxDecoration(
-                  //             borderRadius: BorderRadius.circular(40 * fem),
-                  //             color: Color(0x4c000000),
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     ),
-                  //   ),
-                  // ),
+
                   Positioned(
                     // pantaibali3xo (1:107)
                     left: 29 * fem,
