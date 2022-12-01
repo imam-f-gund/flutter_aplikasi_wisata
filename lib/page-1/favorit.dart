@@ -87,13 +87,11 @@ class SceneFavorit extends StatelessWidget {
                   children: [
                     Container(
                       // autogroupfhbrX3R (d5g2NLn6yWS1x5qS5FHBR)
-
+                      padding: EdgeInsets.fromLTRB(
+                          24 * fem, 0 * fem, 25 * fem, 99 * fem),
                       width: double.infinity,
                       child: Column(
                         children: [
-                          SizedBox(
-                            height: 20 * fem,
-                          ),
                           Container(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
