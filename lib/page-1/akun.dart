@@ -77,64 +77,6 @@ class SceneAkun extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: Color(0xffffffff),
                   ),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Container(
-                        // time9cF (1:148)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 233.5 * fem, 0 * fem),
-                        child: Text(
-                          '9:41',
-                          textAlign: TextAlign.center,
-                          style: SafeGoogleFont(
-                            'SF Pro Text',
-                            fontSize: 15 * ffem,
-                            fontWeight: FontWeight.w600,
-                            height: 1.3333333333 * ffem / fem,
-                            letterSpacing: -0.2399999946 * fem,
-                            color: Color(0xff001e6c),
-                          ),
-                        ),
-                      ),
-                      Container(
-                        // cellularconnectionAGT (1:142)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 5 * fem, 0.66 * fem),
-                        width: 17 * fem,
-                        height: 10.67 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/cellular-connection-a7d.png',
-                          width: 17 * fem,
-                          height: 10.67 * fem,
-                        ),
-                      ),
-                      Container(
-                        // wifipro (1:138)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 5 * fem, 1 * fem),
-                        width: 15.33 * fem,
-                        height: 11 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/wifi-yCf.png',
-                          width: 15.33 * fem,
-                          height: 11 * fem,
-                        ),
-                      ),
-                      Container(
-                        // batteryWzX (1:134)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 0 * fem, 0.66 * fem),
-                        width: 24.33 * fem,
-                        height: 11.33 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/battery-iks.png',
-                          width: 24.33 * fem,
-                          height: 11.33 * fem,
-                        ),
-                      ),
-                    ],
-                  ),
                 ),
               ),
               Positioned(
