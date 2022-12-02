@@ -158,27 +158,7 @@ class Scene2 extends StatelessWidget {
     }
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Aplikasi Wisata',
-            style: SafeGoogleFont(
-              'Roboto',
-              fontSize: 18 * ffem,
-              fontWeight: FontWeight.w700,
-              height: 1.1725 * ffem / fem,
-              color: Color.fromARGB(255, 80, 150, 255),
-            )),
-        flexibleSpace: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-                colors: [
-                  Color.fromARGB(255, 150, 144, 144),
-                  Color.fromARGB(255, 255, 255, 255)
-                ],
-                begin: FractionalOffset.topLeft,
-                end: FractionalOffset.bottomRight),
-          ),
-        ),
-      ),
+     
       body: Container(
         width: double.infinity,
         child: Container(
